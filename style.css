@@ -1,0 +1,114 @@
+ body {
+   font-family: 'Montserrat', sans-serif;
+   background: url('vsku.jpg');
+   background-size: cover;
+   position: contain;
+   margin: 0;
+   padding: 0;
+   color: white;
+ }
+
+ .left {
+   /* border: 2px solid red; */
+   display: inline-block;
+   position: absolute;
+   left: 30px;
+   top: 12px;
+ }
+
+ .right {
+   /* border: 2px solid yellow; */
+   position: absolute;
+   right: 34px;
+   top: 28px;
+   display: inline-block;
+   width: 33%;
+ }
+
+ .navbar {
+   list-style: none;
+
+ }
+
+ .right li {
+   display: inline-block;
+
+ }
+
+ .right a {
+   text-decoration: none;
+   color: white;
+   padding: 35px 30px;
+   font-weight: bold;
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+ }
+
+ .navbar li a:hover,
+ .navbar li a.active {
+   text-decoration: underline;
+   color: rgb(191, 183, 183);
+ }
+
+ .left img {
+   width: 95px;
+   filter: invert(100%);
+   margin: auto;
+   display: block;
+ }
+
+ .left img:hover {
+   cursor: pointer;
+ }
+
+ .left div {
+   text-align: center;
+   font-size: 19px;
+   font-weight: bold;
+   line-height: 2;
+ }
+
+ .container {
+   border: 2px solid white;
+   margin: 199px 79px;
+   padding: 65px;
+   width: 33%;
+   border-radius: 32px;
+
+ }
+
+ .container h1 {
+   font-size: 25px;
+   text-align: center;
+ }
+
+
+
+ .container button {
+   background-color: black;
+   color: white;
+   padding: 4px 14px;
+   border: 2px solid grey;
+   border-radius: 10px;
+   font-size: 20px;
+   cursor: pointer;
+   display: block;
+   margin: 10px auto;
+   width: 23%;
+ }
+
+ .btn:hover {
+   background-color: rgb(31, 30, 30);
+ }
+
+ .group input {
+   text-align: center;
+   display: block;
+   width: 510px;
+   margin: 11px auto;
+   padding: 2px;
+   border: 2px solid black;
+   font-size: 18px;
+   border-radius: 10px;
+   font-family: 'Montserrat', sans-serif;
+ }
